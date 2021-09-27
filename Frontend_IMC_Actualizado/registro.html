@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <body bgcolor="lightblue"> </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+
+<body>
+    <style>
+    
+        body {
+            max-width: 1400px;
+            min-width: 375px;
+            margin-right: auto;
+            margin-left: 3%;
+            margin-top: 1;
+            margin-bottom: 0;
+            color: #1a116e;
+        }
+
+        .botonRegistro {
+            color: aliceblue;
+            background-color: #1a116e;
+
+        }
+
+    </style>
+
+    <h1>Registrar paciente</h1>
+
+    <div class="mb-3 row">
+        <label for="inputNombre" class="col-sm-2 col-form-label">Nombre paciente</label>
+        <div class="col-sm-10">
+          <input type="nombre" class="form-control" id="inputNombre">
+        </div>
+    </p>
+    <select class="form-select" aria-label="Default select example">
+            <option selected>Tipo de documento de identidad</option>
+            <option value="1">Tarjeta de identidad</option>
+            <option value="2">Cedula de ciudadania</option>
+            <option value="3">Cedula de extranjeria</option>
+    </select>
+
+    </p>
+
+    <div class="mb-3 row">
+        <label for="inputDocumento" class="col-sm-2 col-form-label">Numero de documento</label>
+        <div class="col-sm-10">
+          <input type="numero" class="form-control" id="inputDocumento">
+        </div>
+
+    </p>
+
+    <div class="mb-3 row">
+            <label for="inputFecha" class="col-sm-2 col-form-label">Fecha de nacimiento</label>
+            <div class="col-sm-10">
+              <input type="fecha" class="form-control" id="inputFecha">
+        </div>
+
+    </p>
+    
+    <div class="mb-3 row">
+            <label for="inputDireccion" class="col-sm-2 col-form-label">Direccion</label>
+            <div class="col-sm-10">
+              <input type="direccion" class="form-control" id="inputDireccion">
+    </div>
+
+    </p>
+
+    <div class="mb-3 row">
+        <label for="inputTelefono" class="col-sm-2 col-form-label">Telefono de contacto</label>
+        <div class="col-sm-10">
+          <input type="telefono" class="form-control" id="inputTelefono">
+    </div>
+
+    </p>
+
+    <div class="mb-3 row">
+        <label for="inputCorreo" class="col-sm-2 col-form-label">Correo electronico</label>
+        <div class="col-sm-10">
+          <input type="correo" class="form-control" id="inputCorreo">
+    </div>
+
+    </p>
+
+    <div class="mb-3 row">
+        <label for="inputEps" class="col-sm-2 col-form-label">EPS</label>
+        <div class="col-sm-10">
+          <input type="eps" class="form-control" id="inputEps">
+    </div>
+
+    </p>
+
+    <div class="mb-3 row">
+        <label for="inputAdicional" class="col-sm-2 col-form-label">Informacion adicional</label>
+        <div class="col-sm-10">
+          <input type="adicional" class="form-control" id="inputAdicional">
+    </div>
+
+    </p>
+    
+    <div class="registrar">
+        <button class="botonRegistro" type="button">Guardar y registrar</button>
+
+ 
