@@ -1,0 +1,80 @@
+<!-- Inicio de sesion como administrador -->
+<!DOCTYPE html>
+<html lang="en">
+
+    <body bgcolor="lightblue"> </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesion</title>
+</head>
+
+<body>
+    <style>
+    
+        body {
+            max-width: 1400px;
+            min-width: 375px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 1;
+            margin-bottom: 0;
+            color: #1a116e;
+        }
+
+        .administrador{
+            margin-top: 2%;
+            margin-left: 40%;
+        }
+        .inicio{
+            color:rgb(18, 12, 102);
+            background-color:rgb(143, 143, 216);
+            text-align: center;
+        }
+        .titulo{
+            text-align: center;
+            margin-top: 5%;
+        }
+        .banner {
+            width: 100%;
+        }
+
+        .banner>img {
+            width: 50%;
+            height: 200px;
+            max-width: 1400px;
+            margin-left: 25%;
+        }
+
+        
+</style>
+
+<div class=titulo>
+    <h1>ACCESO AL SISTEMA IMC</h1>
+</div>
+
+<div class="banner">
+    <img src="./pies-sobrepeso.jpg" alt="A banner image">
+</div>
+
+<section id=admon class="administrador">
+
+    <form>
+        <div class="row mb-3">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail3">
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="inputPassword3" class="col-sm-2 col-form-label">Contraseña</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword3">
+          </div>
+        </div>
+        <button type="submit" id= "in" class= inicio>
+            <a href="Menu_administrador.html">Iniciar sesion</a>
+        </button>
+      </form>
+    
+    </section>
